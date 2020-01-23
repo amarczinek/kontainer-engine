@@ -951,6 +951,8 @@ func (d *Driver) ensureLogAnalyticsWorkspaceForMonitoring(ctx context.Context, c
 		"westeurope":         "WEU",
 		"westus":             "WUS",
 		"westus2":            "WUS2",
+		"germanywestcentral": "FRA",
+		"germanynorth":       "MAG",
 		// mapping for azure china cloud
 		"chinaeast":   "EAST2",
 		"chinaeast2":  "EAST2",
@@ -990,6 +992,8 @@ func (d *Driver) ensureLogAnalyticsWorkspaceForMonitoring(ctx context.Context, c
 		"westindia":          "centralindia",
 		"westus":             "westus",
 		"westus2":            "westus2",
+		"germanywestcentral": "germanywestcentral",
+		"germanynorth":       "germanynorth",
 		// mapping for azure china cloud
 		"chinaeast":   "chinaeast2",
 		"chinaeast2":  "chinaeast2",
